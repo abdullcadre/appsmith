@@ -34,7 +34,7 @@
   "isVisible": true,
   "key": "d80868s2dr",
   "leftColumn": 2,
-  "onClick": "{{navigateTo('Tasks', {}, 'SAME_WINDOW');}}/",
+  "onClick": "{{ inp_password.text.length > 1 ? navigateTo('Tasks', {}, 'SAME_WINDOW') : showAlert('Password inválida', 'error') }}",
   "originalBottomRow": 46,
   "originalTopRow": 40,
   "parentColumnSpace": 18.1875,
