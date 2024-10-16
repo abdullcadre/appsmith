@@ -21,7 +21,11 @@
   "icon": "money",
   "pages": [
     {
-      "id": "Page1",
+      "id": "Tasks",
+      "isDefault": false
+    },
+    {
+      "id": "login",
       "isDefault": true
     }
   ],
